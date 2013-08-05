@@ -16,3 +16,39 @@ H1 Font Size = 40px
 Link Hover Color = #20222a
 
 */
+body {
+	background-color: #F3EBE9;
+}
+#container {
+	margin: 0 auto;
+	width: 1000px;
+	background-color: #FFF;
+	padding-left: 36px;
+	padding-top: 21px;
+}
+
+img {
+	border: solid 2px gray;
+}
+
+.thumb:hover {
+	-webkit-transform: scale(1.2, 1.2);	
+}
+
+h1 {
+	font-family: "Arial","Helvetica";
+   	color: #999999;
+   	margin-top: 0;
+}
+
+h2, h3, p {
+	font-family: "Times New Roman","Arial";
+	color: #656565;
+	margin-left: 14px;
+}
+h2 {
+	font-size: 20px;
+}
+p {
+	font-size: 12px;
+}
