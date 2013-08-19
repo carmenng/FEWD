@@ -75,7 +75,10 @@ a {
 	text-decoration:none;
 }
 
-p { margin: 0px 0px 15px 0px; } /* there's no explicit rule, but putting about 15px margin only to the bottom of your p is generally a good rule of thumb */
+p { 
+	padding-top: 8px;
+	text-align: left;
+	margin: 0px 15px 15px 0px; } /* there's no explicit rule, but putting about 15px margin only to the bottom of your p is generally a good rule of thumb */
 
 
 /*----------------------------------------------------------------------------- 
@@ -164,14 +167,19 @@ nav {
 =06 MISC 
 -----------------------------------------------------------------------------*/
 
-
-.clear {
-	clear: both;	
+/* Clear fix hack */
+.clear:after {
+     content: "CARMEN";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
 }
 
 .imgright {
-	float: right;
-	margin: 0 0 10px 10px;
+	float: left;
+	margin: 8px 10px 0 0;
 }
 
 .imgleft {

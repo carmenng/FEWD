@@ -23,4 +23,5 @@ li a {
 li a {
 	transition: 1s;
 	-webkit-transition: 1s;
+	moz-transition:100s;
 }
